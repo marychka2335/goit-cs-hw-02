@@ -1,0 +1,3 @@
+curl -s -L --head --request GET <https://www.meta.ua> | grep "HTTP/2 200" filename.html
+
+curl -o filename.html <https://www.meta.ua>
